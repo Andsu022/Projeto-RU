@@ -9,7 +9,24 @@ lista_cursos_CSHNB = [
     'Enfermagem', 
     'Medicina', 
     'Nutrição', 
-    'Sistemas de Informação' 
+    'Sistemas de informação' 
 ]
 
-dicionario_usuarios = {}
+recargas_pendentes = []
+lista_usuarios = []
+
+VALOR_FICHA = 0.8
+
+cursos_dict = {
+    'A': 'Ciências Biológicas',
+    'B': 'Educação do Campo/Ciências da Natureza',
+    'C': 'História',
+    'D': 'Letras',
+    'E': 'Pedagogia',
+    'F': 'Matemática',
+    'G': 'Administração',
+    'H': 'Enfermagem',
+    'I': 'Medicina',
+    'J': 'Nutrição',
+    'K': 'Sistemas de informação'
+}
